@@ -1,0 +1,135 @@
+       * {
+           margin: 0;
+           padding: 0;
+       }
+       
+       h3 {
+           background: #000;
+           opacity: 0.8;
+           font-size: 20px;
+           padding-top: 20px;
+           height: 20px;
+       }
+       
+       body {
+           background: url('../images/fond_jaune.png');
+           padding: 0px 20px;
+       }
+       
+       header {
+           width: 100%;
+           /*background: #FBF4B9;*/
+           height: 100%;
+           /*position: fixed;*/
+           z-index: 10;
+       }
+       
+       .logo {
+           width: 40%;
+           height: 70px;
+           /* background: blue;*/
+           float: left;
+           padding-top: 20px;
+           box-sizing: border-box;
+           font-weight: bold;
+           text-decoration: none;
+           display: inline-block;
+           /*padding: 20px 20px;*/
+       }
+       
+       .logo h1 {
+           color: #000;
+           font-size: 2, 5em;
+           text-decoration: none;
+           font-family: 'Times New Roman', Times, serif;
+           font-weight: normal;
+           display: inline-block;
+           margin-bottom: 0px;
+       }
+       
+       nav {
+           width: 50%;
+           height: 70px;
+           display: inline-block;
+           float: left;
+           text-align: right;
+           padding-top: 80px;
+           box-sizing: border-box;
+       }
+       
+       nav ul li {
+           display: inline-block;
+           position: relative;
+       }
+       
+       nav ul li a {
+           color: rgb(17, 13, 13);
+           font-size: 20px;
+           text-decoration: none;
+           text-transform: uppercase;
+           padding-left: 15px;
+           font-weight: bold;
+           letter-spacing: 1px;
+           font-family: Arial, Helvetica, sans-serif;
+       }
+       
+       nav ul li a:hover {
+           color: rgb(173, 165, 165);
+       }
+       
+       .ancho {
+           width: 100%;
+           height: 90px;
+           margin: auto;
+       }
+       
+       .separador img {
+           width: 97%;
+           height: 4px;
+           padding-top: auto;
+       }
+       
+       .ancho-letras {
+           background: url('../images/sanfrancisco.jpg');
+           background-position: left;
+           background-size: cover;
+           position: relative;
+           padding-top: 170px;
+           font-weight: bold;
+           border-radius: 10px;
+           width: 97%;
+           /*text-align: center;*/
+           z-index: 1;
+           font-family: Arial, Helvetica, sans-serif;
+       }
+       
+       .letras {
+           width: 98.4%;
+           margin: auto;
+           background: black;
+           opacity: 0.6;
+           color: aliceblue;
+           padding: 10px;
+           text-align: left;
+           border-bottom-right-radius: 10px;
+           border-bottom-left-radius: 10px
+       }
+       
+       .letras a {
+           background: url('../images/fond_degraderouge.png');
+           display: inline-block;
+           float: right;
+           width: 10%;
+           height: 25px;
+           margin-top: 60px;
+           margin: auto;
+           /*background: red;*/
+           right: 5px;
+           bottom: 5px;
+           border-radius: 5px;
+           font-size: 1.2em;
+           padding: 3px 8px 0px 8px;
+           color: white;
+           text-decoration: none;
+           padding-top: 2px;
+       }

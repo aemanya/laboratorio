@@ -1,0 +1,95 @@
+article,
+aside {
+    vertical-align: top;
+    text-align: justify;
+}
+
+article {
+    width: 110%;
+    margin-right: 15px;
+    padding: 10px 10px;
+}
+
+article p {
+    font-size: 0.8;
+}
+
+aside {
+    text-align: center;
+    position: relative;
+    width: 18%;
+    background-color: #706b64;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 0px;
+}
+
+aside p {
+    text-align: justify;
+}
+
+footer {
+    padding: 0px;
+}
+
+footer p footer ul {
+    font-size: 0.8em;
+}
+
+footer h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1;
+}
+
+section {
+    width: 100%;
+}
+
+.contenido {
+    float: left;
+    width: 68%;
+    padding: 10px 10px;
+    text-align: justify;
+}
+
+.pie,
+.pie2,
+.pie3 {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.pie {
+    width: 28%;
+}
+
+.pie2 {
+    width: 35%;
+}
+
+.pie3 {
+    width: 31%;
+}
+
+.pie3 ul {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0;
+    width: 48%;
+    padding-left: 2px;
+}
+
+.pie3 a {
+    text-decoration: none;
+    color: #760001
+}
+
+.pie2 img {
+    border: 1px solid black;
+    margin-right: 2px;
+}
